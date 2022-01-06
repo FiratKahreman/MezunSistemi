@@ -13,19 +13,19 @@ namespace MezunSistemi.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
+        public ActionResult Sosyal()
+        {          
             return View();
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
+        public ActionResult Harita()
+        {   
             return View();
         }
 
+        public ActionResult Profil()
+        {
+            return View();
+        }
     }
 }

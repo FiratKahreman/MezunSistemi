@@ -1,0 +1,49 @@
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif, rgb(211, 29, 29);
+    font-style: italic;
+    font-size: 12px;
+}
+
+#nav2 {
+    position: fixed;
+    padding: 10px;
+    padding-bottom: 100%;
+    margin-top: 120px;
+    margin-right: 50px;
+    color: rgb(87, 16, 22);
+    border: rgb(87, 16, 22);
+    background-color: rgb(226, 209, 211);
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.myButton {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 18px;
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(95, 20, 27) 0%, rgb(87, 16, 22) 51%, rgb(77, 14, 19) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(250, 250, 250);
+    display: inline-block;
+}
+
+.myButton:hover {
+    background: #a82121;
+    color: rgb(0, 0, 0);
+}
+
+.myButton:active {
+    background: #2b0404;
+}
+
+.cov {
+    border: 10px;
+    border-color: aqua;
+}

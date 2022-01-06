@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\GirisController.cs" />
+    <Compile Include="Controllers\HaritaController.cs" />
     <Compile Include="Controllers\MezunController.cs" />
     <Compile Include="Controllers\MezunKartController.cs" />
     <Compile Include="Controllers\OgrenciController.cs" />
@@ -1792,6 +1793,7 @@
     <Content Include="dosyalar\images\logo\logo.png" />
     <Content Include="dosyalar\images\logo\logo_black.png" />
     <Content Include="dosyalar\images\logo\logo_icon.png" />
+    <Content Include="dosyalar\images\logo\mezunkarttaslak.png" />
     <Content Include="dosyalar\img\apple-icon.png" />
     <Content Include="dosyalar\img\bg5.jpg" />
     <Content Include="dosyalar\img\brand\blue.png" />
@@ -1880,6 +1882,8 @@
     <Content Include="dosyalar\js\semantic.min.js" />
     <Content Include="dosyalar\js\settings.html" />
     <Content Include="dosyalar\js\utils.js" />
+    <Content Include="dosyalar\map\source.js" />
+    <Content Include="dosyalar\map\style.css" />
     <Content Include="dosyalar\nucleo\css\nucleo-svg.css" />
     <Content Include="dosyalar\nucleo\css\nucleo.css" />
     <Content Include="dosyalar\nucleo\fonts\nucleo-icons.svg" />
@@ -2015,13 +2019,15 @@
     <Content Include="Views\Shared\LoginLayout.cshtml" />
     <Content Include="Views\Giris\Nedir.cshtml" />
     <Content Include="Views\Giris\KayitOl.cshtml" />
+    <Content Include="Views\Giris\SifreYenile.cshtml" />
+    <Content Include="Views\Harita\Index.cshtml" />
+    <Content Include="Views\Sosyal\Index.cshtml" />
+    <Content Include="Views\MezunKart\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\MezunKart\" />
     <Folder Include="Views\Ogrenci\" />
-    <Folder Include="Views\Sosyal\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

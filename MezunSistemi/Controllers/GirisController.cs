@@ -17,6 +17,10 @@ namespace MezunSistemi.Controllers
         {
             return View();
         }
+        public ActionResult SifreYenile()
+        {
+            return View();
+        }
         public ActionResult Nedir()
         {
             return View();
