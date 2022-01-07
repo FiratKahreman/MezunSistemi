@@ -161,6 +161,7 @@
     <Content Include="dosyalar\css\font-awesome.min.css" />
     <Content Include="dosyalar\css\jquery.fancybox.css" />
     <Content Include="dosyalar\css\jquery.fancybox.min.css" />
+    <Content Include="dosyalar\css\ktufont.css" />
     <Content Include="dosyalar\css\owl.carousel.css" />
     <Content Include="dosyalar\css\paper-dashboard.css" />
     <Content Include="dosyalar\css\paper-dashboard.min.css" />
@@ -1990,6 +1991,10 @@
     <Content Include="dosyalar\fonts\cocosharp\Coco-Sharp-Light-Italic-trial.ttf" />
     <Content Include="dosyalar\fonts\cocosharp\Coco-Sharp-Light-trial.ttf" />
     <Content Include="dosyalar\fonts\cocosharp\Coco-Sharp-Regular-trial.ttf" />
+    <Content Include="dosyalar\fonts\ktu\HurmeGeometricSans1 Bold.otf" />
+    <Content Include="dosyalar\fonts\ktu\HurmeGeometricSans1 BoldOblique.otf" />
+    <Content Include="dosyalar\fonts\ktu\HurmeGeometricSans1 Oblique.otf" />
+    <Content Include="dosyalar\fonts\ktu\HurmeGeometricSans1.otf" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
