@@ -1788,6 +1788,7 @@
     <Content Include="dosyalar\images\layout_img\pattern.png" />
     <Content Include="dosyalar\images\layout_img\pattern_h.png" />
     <Content Include="dosyalar\images\layout_img\paypal.png" />
+    <Content Include="dosyalar\images\layout_img\people2.png" />
     <Content Include="dosyalar\images\layout_img\user_img.jpg" />
     <Content Include="dosyalar\images\layout_img\visa.png" />
     <Content Include="dosyalar\images\logo\ktubanner.jpg" />
@@ -1886,6 +1887,8 @@
     <Content Include="dosyalar\js\semantic.min.js" />
     <Content Include="dosyalar\js\settings.html" />
     <Content Include="dosyalar\js\utils.js" />
+    <Content Include="dosyalar\map\source2.js" />
+    <Content Include="dosyalar\map\style2.css" />
     <Content Include="dosyalar\map\source.js" />
     <Content Include="dosyalar\map\style.css" />
     <Content Include="dosyalar\nucleo\css\nucleo-svg.css" />
