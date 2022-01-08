@@ -12,12 +12,12 @@ const map = new mapboxgl.Map({
 map.on('load', () => {
     map.addSource('films', {
         type: 'geojson',
-        data: 'https://api.jsonbin.io/b/612aa4cdc5159b35ae05ac8e/4'
+        data: 'https://api.jsonbin.io/b/61d8b2f22362237a3a3417dc'
     });
 
     map.addSource('series', {
         type: 'geojson',
-        data: 'https://api.jsonbin.io/b/612dd06b259bcb6118ef8373'
+        data: 'https://api.jsonbin.io/b/61d8b2f22362237a3a3417dc'
     });
 
 
@@ -38,19 +38,17 @@ map.on('load', () => {
     map.on('click', 'films', (e) => {
         const coordinates = e.features[0].geometry.coordinates.slice();
         const description = e.features[0].properties.isim;
-        const place = e.features[0].properties.konum;
-        const year = e.features[0].properties.yil;
+        const place = e.features[0].properties.konum;        
         const tur = e.features[0].properties.tur;
-        const aciklama = e.features[0].properties.aciklama;
-        const cover = e.features[0].properties.cover;
+        
 
 
 
         popup.setLngLat(coordinates).setHTML(description + "<br>Türü: " + tur + "<br>Yıl: " + year + "<br>Konum: " + place).addTo(map);
 
-        document.getElementById("baslik").innerHTML = description;
-        document.getElementById("content").innerHTML = aciklama;
-        document.getElementById("poster").innerHTML = "<img style=\"height= 10%;\"src= " + cover + "></img>";
+        
+        
+        
         map.flyTo({
             center: e.features[0].geometry.coordinates
         });

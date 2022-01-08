@@ -46,6 +46,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Syncfusion.HighContrastTheme.WinForms, Version=19.4460.0.41, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.HighContrastTheme.WinForms.19.4.0.41\lib\net46\Syncfusion.HighContrastTheme.WinForms.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -1991,10 +1994,6 @@
     <Content Include="dosyalar\fonts\cocosharp\Coco-Sharp-Light-Italic-trial.ttf" />
     <Content Include="dosyalar\fonts\cocosharp\Coco-Sharp-Light-trial.ttf" />
     <Content Include="dosyalar\fonts\cocosharp\Coco-Sharp-Regular-trial.ttf" />
-    <Content Include="dosyalar\fonts\ktu\HurmeGeometricSans1 Bold.otf" />
-    <Content Include="dosyalar\fonts\ktu\HurmeGeometricSans1 BoldOblique.otf" />
-    <Content Include="dosyalar\fonts\ktu\HurmeGeometricSans1 Oblique.otf" />
-    <Content Include="dosyalar\fonts\ktu\HurmeGeometricSans1.otf" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
